@@ -1,0 +1,9 @@
+VS manage nuget packages
+Microsoft.EntityFrameworkCore.Tools
+Microsoft.EntityFrameworkCore.Sqlserver
+
+ctor->tab to create constructor
+
+Migrate db to sqlserver. open tools>Package Manager Console
+>Add-Migration "InitialMigration"
+>update-database
