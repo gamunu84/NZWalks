@@ -7,3 +7,8 @@ ctor->tab to create constructor
 Migrate db to sqlserver. open tools>Package Manager Console
 >Add-Migration "InitialMigration"
 >update-database
+
+Install nuget packages
+------------------
+automapper
+automapper.extensions.microsoft.dependencyinjection

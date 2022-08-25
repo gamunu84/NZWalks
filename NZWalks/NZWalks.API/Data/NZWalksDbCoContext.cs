@@ -3,9 +3,9 @@ using NZWalks.API.Models.Domain;
 
 namespace NZWalks.API.Data
 {
-    public class NZWalkdDbCoContext:DbContext
+    public class NZWalksDbCoContext:DbContext
     {
-        public NZWalkdDbCoContext(DbContextOptions<NZWalkdDbCoContext> options):base(options)
+        public NZWalksDbCoContext(DbContextOptions<NZWalksDbCoContext> options):base(options)
         {
                 
         }
